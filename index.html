@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Welcome to my CV</title> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+    <script src="https://kit.fontawesome.com/f51a1ba5cc.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style/cv.css" />
   </head>
   <body> 
-    
-    <div class="cv-main container">
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <div class="cv-main container hide">
       <div class="row-flex">
         <section class="profile-navigation">
           <img src="assets/JohnMarkAlcarde.png" alt="JohnMarkAlcarde.png">
@@ -25,11 +29,12 @@
             </ul>  
             
           </nav>
-          <div class="social-links bg-white pb-3 ">
-            <div class="social-buttons">
-              <div class="social-icon"><a href="https://www.facebook.com/john.alcarde.94"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
-              <div class="social-icon"><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></div>
-              <div class="social-icon"><a href="www.linkedin.com/in/john-alcarde-956b0125a"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+          <div class="social-links bg-white pb-md-2 pt-md-2 ">
+            <div class="social-buttons row justify-content-md-center pb-md-2">
+              <div class="social-icon col-md-2"><a href="https://www.facebook.com/john.alcarde.94"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
+              <div class="social-icon col-md-2"><a href="tel:+639758871231"><i class="fa fa-phone-square" aria-hidden="true"></i></a></div>
+              <div class="social-icon col-md-2"><a href="https://www.linkedin.com/in/john-alcarde-956b0125a"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+              <div class="social-icon col-md-2"><a href="skype:alcardejohn3?call"><i class="fa fa-skype" aria-hidden="true"></i></a></div>
             </div>
             <p style="text-align: center;">© 2022 John Mark Alcarde</p>
           </div>
@@ -52,7 +57,7 @@
                   <h3>WEBSITE DEVELOPER</h3>
                 </div>
                 <div class="additional-info">
-                  <p>I am John Mark Alcarde 25 years old. A website developer with 3 years of experience on building and maintaining wordpress websites</p>
+                  <p> I am a website developer from Philippines, with a strong focus in backend programming and page building using DIVI and Elementor. I love to get new experiences and always learn from my surroundings. I looking forward to any opportunities and challenges.</p>
                   <p>I am Willing to try new things and interested in improving efficiency on assigned tasks. Know how to follow given instructions. Open with my co-worker’s feedback and appreciate team work for a merrier company.</p>
                 </div>
                 <div class="info-table">
@@ -63,31 +68,20 @@
                     <td>John Mark Alcarde</td>
                   </tr>
                   <tr>
+                    <th>Age</th>
+                    <td>25 years old</td>
+                  </tr>
+                  <tr>
                     <th>Date of birth</th>
                     <td>September 19, 1997</td>
                   </tr>
                   <tr>
                     <th>Address</th>
-                    <td>Koronadal City South Cotabato</td>
+                    <td>Barangay Caloocan, Koronadal City, South Cotabato, Philippines</td>
                   </tr>
                   </table>
                 </div>
-                <div class="table-2">
-                  <table class="table table-bordered">
-                  <tr>
-                  <th>Email</th>
-                  <td>alcardejohn3@gmail.com</td>
-                  </tr>
-                  <tr>
-                  <th>Phone</th>
-                  <td>+639758871231</td>
-                  </tr>
-                  <tr>
-                  <th>Skype</th>
-                  <td>alcardejohn3</td>
-                  </tr>
-                  </table>
-                </div>
+                
                 </div>
               </div>
             </div>
@@ -177,7 +171,7 @@
             </div>
             <div class="services">
               <div class="main-title">
-                <h1>SERVICES</h1>
+                <h1>SERVICES AND SKILLS</h1>
                 <div class="zigzag large clearfix " data-svg-drawing="yes">
                   <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
                     <path d="M1.357,12.26 10.807,2.81 20.328,12.332
@@ -187,20 +181,25 @@
               </div>
               <div class="content text-center">
                 <div class="row">
-                  <div class="col-md-4">
-                    <i class="fa fa-life-ring" aria-hidden="true"></i>
-                    <h4>GREAT SUPPORT</h4>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                  </div>
-                  <div class="col-md-4">
+                  <div class="col-md-6 pb-md-5 px-md-4">
                     <i class="fa fa-wrench" aria-hidden="true"></i>
-                    <h4>WEB DEVELOPMENT</h4>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                    <h4>Developmet</h4>
+                    <p>Three years of experience on building wordpress site.</p>
                   </div>
-                  <div class="col-md-4">
-                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-                    <h4>BRANDING</h4>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                  <div class="col-md-6 pb-md-5 px-md-4">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h4>Coding</h4>
+                    <p>Basic skills on jquery, PHP, Javascripts programming language.</p>
+                  </div>
+                  <div class="col-md-6 pb-md-5 px-md-4">
+                    <i class="fa-brands fa-elementor"></i>
+                    <h4>Elementor</h4>
+                    <p>Two years Experience on using Elementor page builder.</p>
+                  </div>
+                  <div class="col-md-6 pb-md-5 px-md-4">
+                    <i class="fa-regular fa-d"></i>
+                    <h4>DIVI Builder</h4>
+                    <p>One years Experience on using DIVI page builder.</p>
                   </div>
                 </div>
               </div>
@@ -225,23 +224,12 @@
             </div>
             <div class="contact-info">
               <div class="main-title">
-                <h1>CONTACT INFO</h1>
+                <h1>Contact Form</h1>
                 <div class="zigzag large clearfix " data-svg-drawing="yes">
                   <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
                     <path d="M1.357,12.26 10.807,2.81 20.328,12.332
                   29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style=" stroke-dasharray: 93.9851, 93.9851;  stroke-dashoffset: 0;"></path>
                   </svg>
-                </div>
-              </div>
-              <div class="content contact-information text-center">
-                <div class="loc flex-column mb-5"><a href="https://goo.gl/maps/gx79E8RLut54BUSu8"><i class="fa fa-map-marker" aria-hidden="true"><p>Poblacion, Koronadal City, South Cotabato</p></i></a></div>
-                <div class="row ">
-                  <div class="col-md-6">
-                    <a href="mailto:alcardejohn3@gmail.com" class="flex-column"><p>Email: alcardejohn3@gmail.com</p><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                  </div>
-                  <div class="col-md-6">
-                  <a href="tel:+639758871231" class="flex-column">  <p>Tel : +63 9758 871 231</p><i class="fa fa-phone" aria-hidden="true"></i></a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -288,13 +276,19 @@
                       </div>
                     </div>
                   </div>
-                  <button class="btn btn-danger form-submit-btn" type="submit">Submit form</button>
+                  <button class="btn btn-danger form-submit-btn" type="submit">Submit</button>
                 </form>
               </div>
             </div>
           </div> 
           
-          <div class="row mb-4">
+          <div class="row w-md-100 py-md-5 download-btn-wrapper">
+            <div class=" clearfix zigzag-download" data-svg-drawing="yes">
+              <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <path d="M1.357,12.26 10.807,2.81 20.328,12.332
+              29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 " style=" stroke-dasharray: 93.9851, 93.9851;  stroke-dashoffset: 0;"></path>
+              </svg>
+            </div>
             <div class="col-md-6 t d-flex justify-content-end">
               <button id="download" class="btn btn-dark download-btn">Download My CV</button>
             </div>
@@ -305,5 +299,6 @@
         </section>
       </div>
     </div> 
+    
   </body>
 </html>

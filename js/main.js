@@ -2,13 +2,13 @@ $(document).ready(function () {
     //download cv
     $("#download").click(function (e) {
         e.preventDefault();
-        window.location.href = "assets/JohnmarkalcardeCV.docx";
+        window.location.href = "assets/JohnmarkalcardeCV.pdf";
     });
 
     //Print CV
     $("#print").click(function (e) {
         e.preventDefault();
-        var file = window.location.href = "assets/JohnmarkalcardeCV.docx";
+        var file = window.location.href = "assets/JohnmarkalcardeCV.pdf";
             print(file);
     });
 
@@ -20,15 +20,14 @@ $(document).ready(function () {
 
     //Navigation Tabs
     $("#about").click(function(){
-        $(".nav-content").addClass("hide");
-        $("#tab-about").removeClass("hide");
-        $("#tab-about").addClass("active");
-    
+      $('#tab-contact').fadeOut('slow');
+      $('#tab-about').fadeIn('slow');
+
+
     });
     $("#contact").click(function(){
-        $(".nav-content").addClass("hide");
-        $("#tab-contact").removeClass("hide");
-        $("#tab-contact").addClass("active");
+      $('#tab-about').fadeOut('slow');
+      $('#tab-contact').fadeIn('slow');
     });
 
 
@@ -51,17 +50,10 @@ $(document).ready(function () {
     }, false);
   })();
     
-    function makeid(length) {
-      var result           = '';
-      var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-      var charactersLength = characters.length;
-      for ( var i = 0; i < length; i++ ) {
-          result += characters.charAt(Math.floor(Math.random() * charactersLength));
-      }
-      return result;
-  }
-
-  console.log(makeid(5));
+  $(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+    $(".cv-main").fadeIn("slow");
+  })
 });
 
 
