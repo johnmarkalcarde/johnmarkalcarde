@@ -54,6 +54,11 @@ $(document).ready(function () {
     $(".loader-wrapper").fadeOut("slow");
     $(".cv-main").fadeIn("slow");
   })
+
+
+  
 });
+
+
 
 
