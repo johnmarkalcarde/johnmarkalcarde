@@ -279,17 +279,21 @@ ul{
     text-transform: uppercase;
     border: 1.5px dashed #33373d;
 }
-
+.experience .workgroup-list{
+    list-style: disc;
+}
 .experience .work-group{
     margin: 0px 0px 25px 20px;
 }
 .experience .content h4{
     color: #333333;
     margin: 10px 0px;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 16px;
 }
 .experience .content h6{
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 16px;
     margin: 0;
     font-weight: 400;
     padding-left: 26px;
