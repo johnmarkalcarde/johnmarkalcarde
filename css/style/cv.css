@@ -113,7 +113,7 @@ ul{
     margin: 0px 0px 10px 0px;
 }
 .about .profile h3 {
-    font-size: 21px;
+    font-size: 18px;
     color: #777777;
     margin: 0px 0px 10px 0px;
     font-weight: 300;
@@ -389,7 +389,14 @@ iframe{
     background-color: #33373d;
     cursor: pointer;
 }
-
+.portfolio a{
+    color: #33373d;
+    font-size: 18px;
+    text-decoration: none;
+}
+.portfolio a:hover{
+    color: #cd5353;
+}
 .active{
     display: block;
 }

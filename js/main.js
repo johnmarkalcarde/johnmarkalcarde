@@ -18,19 +18,27 @@ $(document).ready(function () {
         $(this).addClass("active");
       });
 
-    //Navigation Tabs
+    //Navigation Tabs about
     $("#about").click(function(){
       $('#tab-contact').fadeOut('slow');
+      $('#tab-portfolio').fadeOut('slow');
       $('#tab-about').fadeIn('slow');
-
-
     });
+
+    //Navigation Tabs contact
     $("#contact").click(function(){
       $('#tab-about').fadeOut('slow');
+      $('#tab-portfolio').fadeOut('slow');
       $('#tab-contact').fadeIn('slow');
     });
 
-
+    //Navigation Tabs portfolio
+    $("#portfolio").click(function(){
+      $('#tab-about').fadeOut('slow');
+      $('tab-contact').fadeOut('slow');
+      $('#tab-portfolio').fadeIn('slow');
+    });
+    
     // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
     'use strict';
