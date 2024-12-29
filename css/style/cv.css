@@ -190,7 +190,7 @@ ul{
 }
 .main-title {
     border-bottom: 1px solid #DEE2E6;
-    padding: 30px 10px 2px 40px;
+    padding: 10px 40px 10px 40px;
     position: relative;
 }
 .zigzag.large {
@@ -407,7 +407,7 @@ iframe{
 @media only screen and (max-width: 576px) {
     .container{
         margin: 0px 0px 80px 0px;
-        padding: 50px 60px 0px;
+        padding: 50px 20px 0px;
     }
     .row-flex {
         gap: 15px;
@@ -425,5 +425,18 @@ iframe{
         font-size: 21px;
         line-height: 31px;
     }
+    .content {
+        padding: 20px;
+    }
+    .about .profile h1{
+        font-size: 22px;
 
+    }
+    .about .profile h3 {
+        font-size: 16px;
+
+    }
+    .professional-description{
+        display: none;
+    }
   }
