@@ -2,13 +2,13 @@ $(document).ready(function () {
     //download cv
     $("#download").click(function (e) {
         e.preventDefault();
-        window.location.href = "assets/JohnmarkalcardeCV.pdf";
+        window.location.href = "assets/JohnMarkAlcarde.pdf";
     });
 
     //Print CV
     $("#print").click(function (e) {
         e.preventDefault();
-        var file = window.location.href = "assets/JohnmarkalcardeCV.pdf";
+        var file = window.location.href = "assets/JohnMarkAlcarde.pdf";
             print(file);
     });
 
