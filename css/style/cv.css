@@ -285,6 +285,11 @@ ul{
 .experience .work-group{
     margin: 0px 0px 25px 20px;
 }
+
+.work-group h5{
+    font-size: 16px;
+    font-weight: 600;
+}
 .experience .content h4{
     color: #333333;
     margin: 10px 0px;
